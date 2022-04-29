@@ -1,0 +1,104 @@
+body {
+	background-color: rgb(230,230,230);
+	color: ##575F7D;
+	font-family: 'Lora', serif;
+	font-weight:400;
+	font-size:15px;
+
+}
+h1,h2,h3{
+	font-family: 'Roboto', sans-serif;
+
+}
+h1 {
+	color: #575F7D;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 32px;
+}	
+h2 {
+	color:#7fce91;
+	font-weight:700;
+	font-size:16px;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #7071CA;
+	font-weight:700;
+	font-size: 16px;
+	transition: color 0.3s ease;/*wa9t el talwin*/
+
+}
+a:hover {
+	color:black;
+	text-decoration: underline;
+
+}
+.img-circle {
+	width:100px;
+	border-radius:50%;
+	border:3px solid green;
+	height: 100px;
+}
+#page {
+	width: 700px;
+    margin: 40px auto;
+}
+	.title {
+		background: white;
+    	padding: 60px;
+    	margin: 50px;
+    	box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    	border-radius: 5px;
+    	border-top: 1px solid rgba(0, 0, 0, 0.1); /* elegant border: thin and subtle */
+
+	}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color:whitesmoke ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.btn-bleu { 
+	background-color: #7071CA ;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}		
+.btn-bleu:hover {
+	background-color:black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
